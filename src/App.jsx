@@ -33,7 +33,7 @@ const App = () => {
           setYValue(randY);
           setRotate(randRot);
         }}
-        itemType='svg' src='/Makkhi.svg' alt="" />
+        itemType='svg' src={`${import.meta.env.BASE_URL}=/Makkhi.svg`} alt="" />
       </main>
     </div>
   )
