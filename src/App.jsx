@@ -33,7 +33,7 @@ const App = () => {
           setYValue(randY);
           setRotate(randRot);
         }}
-        itemType='svg' src={`${import.meta.env.BASE_URL}=/Makkhi.svg`} alt="" />
+        itemType='svg' src={`https://www.goodfreephotos.com/albums/vector-images/honey-bee-vector-clipart.png`} alt="" />
       </main>
     </div>
   )
